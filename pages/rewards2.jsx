@@ -20,7 +20,6 @@ const requestOptions = {
   method: 'GET',
   url: '/customers/07166170/activities/spend',
   path: 'https://api.rc.antavo.com/customers/07166170/activities/spend',
-  rejectUnauthorized: false,
   headers: [
     ['Host', 'api.rc.antavo.com'],
     ['Content-Type', 'application/x-www-form-urlencoded; charset=utf-8'],
